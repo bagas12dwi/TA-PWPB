@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload_kategori"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imgupload"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/whitebg"
+        android:src="@drawable/ic_image_black_24dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nama_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nama Kategori Masker"
+            android:layout_marginBottom="5dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:textColor="#FFF"
+        android:background="@drawable/loginbtn"
+        android:foreground="?android:attr/selectableItemBackground"/>
+    <ProgressBar
+        android:id="@+id/uploadprogressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"/>
+</LinearLayout>

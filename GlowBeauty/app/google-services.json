@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "392019817639",
+    "firebase_url": "https://glow-beauty-48c3f.firebaseio.com",
+    "project_id": "glow-beauty-48c3f",
+    "storage_bucket": "glow-beauty-48c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392019817639:android:12929ad039b86becf45782",
+        "android_client_info": {
+          "package_name": "net.bag12.glowbeauty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392019817639-m1k1jtgb36mnt4qaaqbuvaogj0c3m1ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnN2D7-N7TJ2EqmuWx-9Z1FMZuCuIgzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392019817639-m1k1jtgb36mnt4qaaqbuvaogj0c3m1ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
